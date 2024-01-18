@@ -35,7 +35,7 @@ Group Project 40%
 ## Tentative Course Outline and Schedule: 
 Date | Topic | Reading | Recording
 ---|---|---|---
-Week 1 – 1/11 | Course Intro & GitHub & C# Basics & .Net Core | PG 1-14 | 
+Week 1 – 1/11 | Course Intro & GitHub & C# Basics & .Net Core | PG 1-14 | https://youtu.be/UgYNmjyP67U https://youtu.be/uY77Z0ucbi0
 Week 2 – 1/18 | Windows Forms / MAUI for cross platform / XAML | Supplemental | 
 Week 3 – 1/25 | OOP in C# part 1 | PG 15-32 | 
 Week 4 – 2/1 | OOP in C# part 2 | PG 15-32 | 
