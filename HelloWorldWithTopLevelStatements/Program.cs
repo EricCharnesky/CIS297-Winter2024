@@ -136,4 +136,25 @@ string getFavoriteColor()
     return "blue";
 }
 
+
+
+// instead of a bunch of overloading, we can use defaults
+void sayHello(string name = "no name")
+{
+    Console.WriteLine($"Hi there {name}");
+}
+
+// default values have to be the last ones
+int addThreeNumbers(int first, int second = 0, int third = 0)
+{
+    return first + second + third;
+}
+
+int addThreeNumbersWithExpression
+    (int first, int second = 0, int third = 0) 
+    => first + second + third;
+
 Console.WriteLine($"Eric's favorite is {getFavoriteColor()}");
+
+sayHello(name);
+sayHello();
