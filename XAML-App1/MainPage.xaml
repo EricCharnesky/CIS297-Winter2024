@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="XAML_App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XAML_App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Button Content="Click Me" Margin="242,236,0,0" VerticalAlignment="Top" RenderTransformOrigin="-4.435,-5.894" Click="Button_Click"/>
+        <TextBlock x:Name="clickMeTextBlock" HorizontalAlignment="Left" Margin="409,150,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+
+    </Grid>
+</Page>
