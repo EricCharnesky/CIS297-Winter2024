@@ -28,40 +28,39 @@
         /// </summary>
         private void InitializeComponent()
         {
-            incomeTextBox = new TextBox();
+            textBox = new TextBox();
             label1 = new Label();
-            button1 = new Button();
+            addButton = new Button();
             taxesOwedLabel = new Label();
-            button2 = new Button();
-            label2 = new Label();
-            deductionTextBox = new TextBox();
+            incomeRadioButton = new RadioButton();
+            deductionRadioButton = new RadioButton();
             SuspendLayout();
             // 
-            // incomeTextBox
+            // textBox
             // 
-            incomeTextBox.Location = new Point(151, 121);
-            incomeTextBox.Name = "incomeTextBox";
-            incomeTextBox.Size = new Size(125, 27);
-            incomeTextBox.TabIndex = 0;
+            textBox.Location = new Point(151, 121);
+            textBox.Name = "textBox";
+            textBox.Size = new Size(125, 27);
+            textBox.TabIndex = 0;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(11, 124);
+            label1.Location = new Point(51, 124);
             label1.Name = "label1";
-            label1.Size = new Size(134, 20);
+            label1.Size = new Size(94, 20);
             label1.TabIndex = 1;
-            label1.Text = "Enter a W2 Income";
+            label1.Text = "Enter a value";
             // 
-            // button1
+            // addButton
             // 
-            button1.Location = new Point(292, 124);
-            button1.Name = "button1";
-            button1.Size = new Size(138, 29);
-            button1.TabIndex = 2;
-            button1.Text = "Add Income";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
+            addButton.Enabled = false;
+            addButton.Location = new Point(282, 119);
+            addButton.Name = "addButton";
+            addButton.Size = new Size(138, 29);
+            addButton.TabIndex = 2;
+            addButton.UseVisualStyleBackColor = true;
+            addButton.Click += button1_Click;
             // 
             // taxesOwedLabel
             // 
@@ -72,44 +71,39 @@
             taxesOwedLabel.TabIndex = 3;
             taxesOwedLabel.Text = "Taxes Owed:";
             // 
-            // button2
+            // incomeRadioButton
             // 
-            button2.Location = new Point(292, 172);
-            button2.Name = "button2";
-            button2.Size = new Size(138, 29);
-            button2.TabIndex = 6;
-            button2.Text = "Add Deduction";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            incomeRadioButton.AutoSize = true;
+            incomeRadioButton.Location = new Point(123, 75);
+            incomeRadioButton.Name = "incomeRadioButton";
+            incomeRadioButton.Size = new Size(105, 24);
+            incomeRadioButton.TabIndex = 7;
+            incomeRadioButton.Text = "W2 Income";
+            incomeRadioButton.UseVisualStyleBackColor = true;
+            incomeRadioButton.CheckedChanged += incomeRadioButton_CheckedChanged;
             // 
-            // label2
+            // deductionRadioButton
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(11, 172);
-            label2.Name = "label2";
-            label2.Size = new Size(126, 20);
-            label2.TabIndex = 5;
-            label2.Text = "Enter a deduction";
-            // 
-            // deductionTextBox
-            // 
-            deductionTextBox.Location = new Point(151, 169);
-            deductionTextBox.Name = "deductionTextBox";
-            deductionTextBox.Size = new Size(125, 27);
-            deductionTextBox.TabIndex = 4;
+            deductionRadioButton.AutoSize = true;
+            deductionRadioButton.Location = new Point(256, 75);
+            deductionRadioButton.Name = "deductionRadioButton";
+            deductionRadioButton.Size = new Size(99, 24);
+            deductionRadioButton.TabIndex = 8;
+            deductionRadioButton.Text = "Deduction";
+            deductionRadioButton.UseVisualStyleBackColor = true;
+            deductionRadioButton.CheckedChanged += deductionRadioButton_CheckedChanged;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(button2);
-            Controls.Add(label2);
-            Controls.Add(deductionTextBox);
+            Controls.Add(deductionRadioButton);
+            Controls.Add(incomeRadioButton);
             Controls.Add(taxesOwedLabel);
-            Controls.Add(button1);
+            Controls.Add(addButton);
             Controls.Add(label1);
-            Controls.Add(incomeTextBox);
+            Controls.Add(textBox);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -118,12 +112,11 @@
 
         #endregion
 
-        private TextBox incomeTextBox;
+        private TextBox textBox;
         private Label label1;
-        private Button button1;
+        private Button addButton;
         private Label taxesOwedLabel;
-        private Button button2;
-        private Label label2;
-        private TextBox deductionTextBox;
+        private RadioButton incomeRadioButton;
+        private RadioButton deductionRadioButton;
     }
 }

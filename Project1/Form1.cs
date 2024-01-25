@@ -23,9 +23,18 @@ namespace Project1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            grossIncome += int.Parse(incomeTextBox.Text);
-            updateTaxesOwedLabel();
-            incomeTextBox.Text = string.Empty;
+            if (incomeRadioButton.Checked)
+            {
+                grossIncome += int.Parse(textBox.Text);
+                updateTaxesOwedLabel();
+                textBox.Text = string.Empty;
+            }
+            else
+            {
+                totalDeductions += int.Parse(textBox.Text);
+                updateTaxesOwedLabel();
+                textBox.Text = string.Empty;
+            }
         }
 
 
@@ -98,11 +107,35 @@ namespace Project1
             return (adjustedGrossIncome - bracketStart) * bracketRate;
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void incomeRadioButton_CheckedChanged(object sender, EventArgs e)
         {
-            totalDeductions += int.Parse(deductionTextBox.Text);
-            updateTaxesOwedLabel();
-            deductionTextBox.Text = string.Empty;
+            radioButtonCheckChanged();
         }
+
+        private void deductionRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            radioButtonCheckChanged();
+        }
+
+        private void radioButtonCheckChanged()
+        {
+            if (incomeRadioButton.Checked)
+            {
+                addButton.Text = "Add Income";
+            }
+            else
+            {
+                addButton.Text = "Add Deduction";
+            }
+
+            addButton.Enabled = true;
+        }
+
+        //private void button2_Click(object sender, EventArgs e)
+        //{
+        //    totalDeductions += int.Parse(deductionTextBox.Text);
+        //    updateTaxesOwedLabel();
+        //    deductionTextBox.Text = string.Empty;
+        //}
     }
 }
