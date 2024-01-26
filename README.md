@@ -37,7 +37,7 @@ Date | Topic | Reading | Recording
 ---|---|---|---
 Week 1 – 1/11 | Course Intro & GitHub & C# Basics & .Net Core | PG 1-14 | https://youtu.be/UgYNmjyP67U https://youtu.be/uY77Z0ucbi0
 Week 2 – 1/18 | Windows Forms / MAUI for cross platform / XAML | Supplemental | https://youtu.be/T91sFhcgnPc https://youtu.be/izXu00SRcwE
-Week 3 – 1/25 | OOP in C# part 1 | PG 15-32 | https://youtu.be/E4ehTNMSU4o
+Week 3 – 1/25 | OOP in C# part 1 | PG 15-32 | https://youtu.be/E4ehTNMSU4o https://youtu.be/GfZd1D6rpVg
 Week 4 – 2/1 | OOP in C# part 2 | PG 15-32 | 
 Week 5 – 2/8 | OOP in C# part 3 | PG 15-32 | 
 Week 6 – 2/15 | Advanced Topics part 1 | PG 33-51 | 
