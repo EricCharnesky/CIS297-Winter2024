@@ -37,6 +37,8 @@
             areaLabel = new Label();
             perimeterLabel = new Label();
             lengthSlider = new TrackBar();
+            label3 = new Label();
+            circleLabel = new Label();
             ((System.ComponentModel.ISupportInitialize)lengthSlider).BeginInit();
             SuspendLayout();
             // 
@@ -116,11 +118,31 @@
             lengthSlider.TabIndex = 8;
             lengthSlider.Scroll += lengthSlider_Scroll;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(0, 0);
+            label3.Name = "label3";
+            label3.Size = new Size(50, 20);
+            label3.TabIndex = 9;
+            label3.Text = "label3";
+            // 
+            // circleLabel
+            // 
+            circleLabel.AutoSize = true;
+            circleLabel.Location = new Point(284, 367);
+            circleLabel.Name = "circleLabel";
+            circleLabel.Size = new Size(101, 20);
+            circleLabel.TabIndex = 10;
+            circleLabel.Text = "Circle Radius: ";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(circleLabel);
+            Controls.Add(label3);
             Controls.Add(lengthSlider);
             Controls.Add(perimeterLabel);
             Controls.Add(areaLabel);
@@ -148,5 +170,7 @@
         private Label areaLabel;
         private Label perimeterLabel;
         private TrackBar lengthSlider;
+        private Label label3;
+        private Label circleLabel;
     }
 }

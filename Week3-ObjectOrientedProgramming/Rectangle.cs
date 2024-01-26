@@ -67,7 +67,7 @@ namespace Week3_ObjectOrientedProgramming
 
         public override string ToString()
         {
-            return $"Rectangle with lengt: {length} and width: {width}";
+            return $"Rectangle with length: {length} and width: {width}";
         }
     }
 }

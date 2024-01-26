@@ -1,4 +1,5 @@
 using System.Globalization;
+using System.Numerics;
 
 namespace Week3_ObjectOrientedProgramming
 {
@@ -9,6 +10,16 @@ namespace Week3_ObjectOrientedProgramming
         public Form1()
         {
             InitializeComponent();
+            Circle circle = new()
+            {
+                Radius = 10,
+                Color = "Blue"
+            };
+            circleLabel.Text = $"Circle Radius: {circle.Radius} - Color: {circle.Color}";
+
+            Vehicle car = new("Jeep", "Wrangler", "Red", 10, 25);
+            car.KilometersPerLiter = -5;
+            
         }
 
         private void makeRectangleButton_Click(object sender, EventArgs e)
