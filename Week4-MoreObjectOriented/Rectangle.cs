@@ -18,7 +18,8 @@ namespace Week4_MoreObjectOriented
         {
             if (sideLength % 2 == 0)
             {
-                base.SetSideLength(sideLength, 0);
+                // direct access with the protected modifier
+                sideLengths[0] = sideLength;
                 base.SetSideLength(sideLength, 2);
             }
             else

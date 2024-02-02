@@ -39,6 +39,7 @@
             label3 = new Label();
             button3 = new Button();
             polygonLabel = new Label();
+            button4 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -137,11 +138,22 @@
             polygonLabel.TabIndex = 10;
             polygonLabel.Text = "Polygons";
             // 
+            // button4
+            // 
+            button4.Location = new Point(272, 203);
+            button4.Name = "button4";
+            button4.Size = new Size(135, 29);
+            button4.TabIndex = 11;
+            button4.Text = "Add Polygon";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button4);
             Controls.Add(polygonLabel);
             Controls.Add(button3);
             Controls.Add(label3);
@@ -172,5 +184,6 @@
         private Label label3;
         private Button button3;
         private Label polygonLabel;
+        private Button button4;
     }
 }

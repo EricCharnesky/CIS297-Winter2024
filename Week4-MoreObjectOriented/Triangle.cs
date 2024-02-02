@@ -15,9 +15,10 @@ namespace Week4_MoreObjectOriented
         public override double Area()
         {
             double semiPerimeter = Perimeter / 2;
-            return Math.Sqrt(semiPerimeter - GetSideLength(0)
-                * semiPerimeter - GetSideLength(1)
-                * semiPerimeter - GetSideLength(2));
+            double result = Math.Sqrt(semiPerimeter * (semiPerimeter - GetSideLength(0))
+                * (semiPerimeter - GetSideLength(1))
+                * (semiPerimeter - GetSideLength(2)));
+            return result;
 
         }
     }

@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Week4_MoreObjectOriented
 {
-    internal class Polygon
+    internal abstract class Polygon
     {
-        private List<int> sideLengths;
+        // protected means the child classes have access
+        protected List<int> sideLengths;
 
         public string Name { get; set; }
 
@@ -38,6 +39,6 @@ namespace Week4_MoreObjectOriented
 
         public int Perimeter => sideLengths.Sum();
 
-        public virtual double Area() => throw new NotImplementedException();
+        public abstract double Area();
     }
 }
