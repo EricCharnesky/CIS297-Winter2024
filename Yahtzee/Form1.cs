@@ -15,7 +15,7 @@ namespace Yahtzee
 
         private void newDice()
         {
-            dice = new YahtzeeDice();
+            dice = new YahtzeeDice(new RandomWrapper());
 
             die1Label.Text = "";
             die2Label.Text = "";
