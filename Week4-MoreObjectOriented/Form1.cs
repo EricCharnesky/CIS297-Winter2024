@@ -56,8 +56,23 @@ namespace Week4_MoreObjectOriented
 
         private void button2_Click(object sender, EventArgs e)
         {
-            polygons.Add(new Rectangle("Rectangle", int.Parse(lengthTextBox.Text), int.Parse(widthTextBox.Text)));
-            updatePolygonLabel();
+            try
+            {
+                polygons.Add(new Rectangle("Rectangle", int.Parse(lengthTextBox.Text), int.Parse(widthTextBox.Text)));
+
+                updatePolygonLabel();
+            }
+            catch (FormatException ex)
+            {
+                polygonLabel.Text = ex.Message;
+            }
+            catch(Exception ex)
+            {
+                polygonLabel.Text = ex.StackTrace;
+            }
+
+
+            
         }
 
         private void button3_Click(object sender, EventArgs e)

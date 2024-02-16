@@ -40,7 +40,7 @@ Week 2 – 1/18 | Windows Forms / MAUI for cross platform / XAML | Supplemental 
 Week 3 – 1/25 | OOP in C# part 1 | PG 15-32 | https://youtu.be/E4ehTNMSU4o https://youtu.be/GfZd1D6rpVg
 Week 4 – 2/1 | OOP in C# part 2 | PG 15-32 |  https://youtu.be/5mI-E7_jE64 https://youtu.be/q0nSbm4yPaA
 Week 5 – 2/8 | OOP in C# part 3 | PG 15-32 | https://youtu.be/0a4ABTIjPd4 https://youtu.be/GuBR8ndqtos https://youtu.be/aIB5Zks-yfU 
-Week 6 – 2/15 | Advanced Topics part 1 | PG 33-51 | 
+Week 6 – 2/15 | Advanced Topics part 1 | PG 33-51 | https://youtu.be/9iRp5a5ATl8 
 Week 7 - 2/22 | Advanced Topics part 2 | PG 33-51 | 
 Week 8 – 2/29 | Spring Recess
 Week 9 – 3/7 | Midterm

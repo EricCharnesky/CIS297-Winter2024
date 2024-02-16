@@ -24,6 +24,10 @@ namespace Week4_MoreObjectOriented
         }
 
         public virtual void SetSideLength(int sideLength, int sideIndex) {
+            if ( sideLength < 0)
+            {
+                throw new ArgumentException("Invalid length, cannot be < 0");
+            }
             sideLengths[sideIndex] = sideLength;
         }
 
