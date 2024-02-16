@@ -30,6 +30,7 @@
         {
             newHandButton = new Button();
             handLabel = new Label();
+            faceCountsLabel = new Label();
             SuspendLayout();
             // 
             // newHandButton
@@ -50,11 +51,21 @@
             handLabel.Size = new Size(0, 20);
             handLabel.TabIndex = 1;
             // 
+            // faceCountsLabel
+            // 
+            faceCountsLabel.AutoSize = true;
+            faceCountsLabel.Location = new Point(284, 286);
+            faceCountsLabel.Name = "faceCountsLabel";
+            faceCountsLabel.Size = new Size(50, 20);
+            faceCountsLabel.TabIndex = 2;
+            faceCountsLabel.Text = "label1";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(faceCountsLabel);
             Controls.Add(handLabel);
             Controls.Add(newHandButton);
             Name = "Form1";
@@ -67,5 +78,6 @@
 
         private Button newHandButton;
         private Label handLabel;
+        private Label faceCountsLabel;
     }
 }
