@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Poker
 {
-    internal class Card : IComparable<Card>
+    public class Card : IComparable<Card>
     {
         public enum Face { Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King, Ace }
         public enum Suit { Spades, Hearts, Clubs, Diamonds }
