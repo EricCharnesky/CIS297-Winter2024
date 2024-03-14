@@ -41,10 +41,10 @@ Week 3 – 1/25 | OOP in C# part 1 | PG 15-32 | https://youtu.be/E4ehTNMSU4o htt
 Week 4 – 2/1 | OOP in C# part 2 | PG 15-32 |  https://youtu.be/5mI-E7_jE64 https://youtu.be/q0nSbm4yPaA
 Week 5 – 2/8 | OOP in C# part 3 | PG 15-32 | https://youtu.be/0a4ABTIjPd4 https://youtu.be/GuBR8ndqtos https://youtu.be/aIB5Zks-yfU 
 Week 6 – 2/15 | Advanced Topics part 1 | PG 33-51 | https://youtu.be/9iRp5a5ATl8 https://youtu.be/QsujlfbHwfU 
-Week 7 - 2/22 | Advanced Topics part 2 | PG 33-51 | 
+Week 7 - 2/22 | Advanced Topics part 2 | PG 33-51 | https://youtu.be/jSmNcf6YTa4?si=wlODWDwwI4sM1xBk&t=5221 https://youtu.be/YE8UieTkDjg?si=PGROKYtp2Qs2xNlv
 Week 8 – 2/29 | Spring Recess
 Week 9 – 3/7 | Midterm
-Week 10 – 3/14 | Intro to Databases | Supplemental | 
+Week 10 – 3/14 | Intro to Databases | Supplemental | https://youtu.be/I9ahIURrAuo 
 Week 11 – 3/21 | Database Programming & Entity Framework | Supplemental | 
 Week 12 – 3/28 | Universal Windows Platform - XAML | Supplemental | 
 Week 13 – 4/4 | Universal Windows Platform – Graphics | Supplemental | 
