@@ -44,7 +44,7 @@ Week 6 – 2/15 | Advanced Topics part 1 | PG 33-51 | https://youtu.be/9iRp5a5AT
 Week 7 - 2/22 | Advanced Topics part 2 | PG 33-51 | https://youtu.be/jSmNcf6YTa4?si=wlODWDwwI4sM1xBk&t=5221 https://youtu.be/YE8UieTkDjg?si=PGROKYtp2Qs2xNlv
 Week 8 – 2/29 | Spring Recess
 Week 9 – 3/7 | Midterm
-Week 10 – 3/14 | Intro to Databases | Supplemental | https://youtu.be/I9ahIURrAuo 
+Week 10 – 3/14 | Intro to Databases | Supplemental | https://youtu.be/I9ahIURrAuo https://youtu.be/s5BR3aGfJ6g
 Week 11 – 3/21 | Database Programming & Entity Framework | Supplemental | 
 Week 12 – 3/28 | Universal Windows Platform - XAML | Supplemental | 
 Week 13 – 4/4 | Universal Windows Platform – Graphics | Supplemental | 
