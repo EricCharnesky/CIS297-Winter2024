@@ -46,7 +46,7 @@ Week 8 – 2/29 | Spring Recess
 Week 9 – 3/7 | Midterm
 Week 10 – 3/14 | Intro to Databases | Supplemental | https://youtu.be/I9ahIURrAuo https://youtu.be/s5BR3aGfJ6g
 Week 11 – 3/21 | Database Programming & Entity Framework | Supplemental | https://youtu.be/Af8TIxqWEcI?si=KrWzw8uPy8gUMOJa&t=440
-Week 12 – 3/28 | Universal Windows Platform - XAML | Supplemental | 
+Week 12 – 3/28 | Universal Windows Platform - XAML | Supplemental | https://youtu.be/GpZzSUIY1ZM https://youtu.be/zeNYp7PhnHY
 Week 13 – 4/4 | Universal Windows Platform – Graphics | Supplemental | 
 Week 14 – 4/11 | Universal Windows Platform – Game building | Supplemental |
 Week 15 – 4/18 | Group project work time |
