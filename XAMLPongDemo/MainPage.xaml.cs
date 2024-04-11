@@ -8,11 +8,13 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Gaming.Input;
 using Windows.UI;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
 using Windows.UI.Xaml.Data;
+using Windows.UI.Xaml.Documents;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
@@ -208,6 +210,20 @@ namespace XAMLPongDemo
                     bottomPaddle.X++;
                 }
             }
+
+
+            if (Gamepad.Gamepads.Count > 0)
+            {
+                Gamepad controller = Gamepad.Gamepads.First();
+                var reading = controller.GetCurrentReading();
+                bottomPaddle.X += (int)(reading.LeftThumbstickX * 5);
+                bottomPaddle.Y += (int)(reading.LeftThumbstickY * -5);
+
+               // if (reading.Buttons.HasFlag(GamepadButtons.A))
+                
+            }
+
+
         }
 
         private void Canvas_CreateResources(CanvasAnimatedControl sender, Microsoft.Graphics.Canvas.UI.CanvasCreateResourcesEventArgs args)
