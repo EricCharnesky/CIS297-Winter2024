@@ -1,9 +1,11 @@
-﻿using Microsoft.Graphics.Canvas.UI.Xaml;
+﻿using Microsoft.Graphics.Canvas;
+using Microsoft.Graphics.Canvas.UI.Xaml;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using System.Threading.Tasks;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI;
@@ -26,6 +28,8 @@ namespace XAMLPongDemo
     {
         bool ballMovingRight;
         bool ballMovingDown;
+
+        private CanvasBitmap ballImage;
 
         Rectangle leftWall;
         Rectangle rightWall;
@@ -204,6 +208,17 @@ namespace XAMLPongDemo
                     bottomPaddle.X++;
                 }
             }
+        }
+
+        private void Canvas_CreateResources(CanvasAnimatedControl sender, Microsoft.Graphics.Canvas.UI.CanvasCreateResourcesEventArgs args)
+        {
+            args.TrackAsyncAction(CreateResources(sender).AsAsyncAction());
+        }
+
+        async Task CreateResources(Microsoft.Graphics.Canvas.UI.Xaml.CanvasAnimatedControl sender)
+        {
+            ballImage = await CanvasBitmap.LoadAsync(sender, "Assets/ball.jpg");
+            circle.Image = ballImage;
         }
     }
 }
