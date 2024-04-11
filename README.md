@@ -48,7 +48,7 @@ Week 10 – 3/14 | Intro to Databases | Supplemental | https://youtu.be/I9ahIURr
 Week 11 – 3/21 | Database Programming & Entity Framework | Supplemental | https://youtu.be/Af8TIxqWEcI?si=KrWzw8uPy8gUMOJa&t=440
 Week 12 – 3/28 | Universal Windows Platform - XAML | Supplemental | https://youtu.be/GpZzSUIY1ZM https://youtu.be/zeNYp7PhnHY
 Week 13 – 4/4 | Universal Windows Platform – Graphics | Supplemental | https://youtu.be/peo08A2NKoo?si=3823936wUMwvRCiF&t=1103
-Week 14 – 4/11 | Universal Windows Platform – Game building | Supplemental | https://youtu.be/bdRZsfRCTI8
+Week 14 – 4/11 | Universal Windows Platform – Game building | Supplemental | https://youtu.be/bdRZsfRCTI8 https://youtu.be/-D3_ijJLdKM
 Week 15 – 4/18 | Group project work time |
 Week 16 - 4/25 – 6:30pm | Group Project Presentations |
  
